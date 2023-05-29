@@ -22,6 +22,7 @@ body {
 }
 
 .fon2 {
+  min-height: 640px;
   background-color: #04151c;
 }
 
@@ -113,10 +114,10 @@ body {
   font-size: 40px;
 }
 
+/*
 .popup .menu {
-  /* display: none; */
-}
-
+	/* display: none; */
+/*
 /*
 .navbar{
     height: 100px;
@@ -450,6 +451,7 @@ p {
 
 /*---------- Слайдер--------------*/
 .content {
+  padding-top: 40px;
   margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -463,7 +465,7 @@ p {
 }
 
 .slider {
-  width: 500px;
+  width: 400px;
   min-height: 250px;
   overflow: hidden;
 }
@@ -483,8 +485,8 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 500px;
-  width: 1500px;
+  height: 400px;
+  width: 1200px;
   background-color: #ebe5e5;
   position: relative;
   left: 0;
@@ -516,8 +518,6 @@ p {
 }
 
 .buttons {
-  margin-top: 5%;
-  margin-bottom: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,6 +527,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
 }
 
 .slider-button-prew {
@@ -736,21 +737,20 @@ p {
   .subtitle {
     font-size: 18px;
   }
-  .slider_line {
-    left: offset;
-    height: 400px;
-    width: 1200px;
+  .slider {
+    min-height: 40px;
   }
   .slider-text {
     font-size: 22px;
   }
   .dobavka {
-    min-width: 471px;
+    min-width: 400px;
   }
   .content {
     background-color: #04151c;
     min-height: 1024px;
-    min-height: 500px;
+    min-height: 400px;
+    min-height: 630px;
   }
   .stishok {
     font-size: 18px;
@@ -807,12 +807,14 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-bottom: 40px;
   }
   .slider {
     width: 400px;
     margin-top: 10%;
   }
   .slider_line {
+    left: offset;
     height: 400px;
     width: 1200px;
   }
@@ -869,6 +871,7 @@ p {
     display: none;
   }
   .content {
+    min-height: 640px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

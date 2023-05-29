@@ -34,8 +34,8 @@ window.addEventListener('DOMContentLoaded', function () {
     const sliderLine = this.document.querySelector('.slider_line');
 
     document.querySelector('.slider-button-next').addEventListener('click', function(){
-        offset = offset + 500;
-        if (offset > 1500){
+        offset = offset + 400;
+        if (offset > 1200){
             offset=0;
         }
             
@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.slider-button-prew').addEventListener('click', function(){
         offset = offset - 500;
         if (offset < 0){
-            offset=1500;
+            offset=1200;
         }
             
         sliderLine.style.left = -offset + 'px';

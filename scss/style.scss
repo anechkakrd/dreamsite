@@ -18,6 +18,7 @@ body{
 }
 
 .fon2{
+    min-height: 640px;
     background-color: #04151c;
 }
 .fon{
@@ -91,9 +92,11 @@ body{
     font-size: 40px;
 }
 
+/*
 .popup .menu {
 	/* display: none; */
-}
+
+/*
 /*
 .navbar{
     height: 100px;
@@ -412,6 +415,7 @@ p{
 
 /*---------- Слайдер--------------*/
 .content{
+    padding-top: 40px;
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
@@ -421,7 +425,7 @@ p{
 
 .slider {
     
-	width: 500px;
+	width: 400px;
 	min-height: 250px;
     //border: 2px solid rgb(250, 242, 6);
 	//margin: 10px auto;
@@ -437,8 +441,8 @@ p{
 .slider_line{
     display: flex;
     flex-direction: row;
-    height: 500px;
-    width: 1500px;
+    height: 400px;
+    width: 1200px;
     background-color: #ebe5e5;
     position: relative;
     left: 0;
@@ -466,11 +470,11 @@ p{
 	text-align: center;
 }
 .buttons{
-    margin-top: 5%;
-    margin-bottom: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding-top: 20px;
 
 
 }
@@ -687,21 +691,22 @@ p{
     .subtitle{
         font-size: 18px;
     }
-    .slider_line{
-        left: offset;
-        height: 400px;
-        width: 1200px;
+    .slider{
+        min-height: 40px;
     }
+    
     .slider-text{
         font-size: 22px;
     }
     .dobavka{
-        min-width: 471px;
+        min-width: 400px;
     }
     .content{
-    background-color: #04151c;  
-    min-height: 1024px;
-    min-height: 500px;
+        background-color: #04151c;  
+        min-height: 1024px;
+        min-height: 400px;
+
+        min-height: 630px;
    }
     .stishok{
         font-size: 18px;
@@ -757,13 +762,16 @@ p{
     .content{
         display: flex;
         flex-direction: column;
+        padding-bottom: 40px;
         
     }
     .slider{
+
         width: 400px;
         margin-top: 10%;
     }
     .slider_line{
+        left: offset;
         height: 400px;
         width: 1200px;
     }
@@ -821,6 +829,7 @@ p{
         display: none;
     }
     .content{
+        min-height: 640px;
         display: flex;
         flex-direction: column-reverse;
     }
